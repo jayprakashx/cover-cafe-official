@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+@theme {
+  --color-premium: #121212;
+  --color-accent: #007BFF;
+  --font-inter: "Inter", sans-serif;
+  --font-lexend: "Lexend", sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&family=Lexend:wght@700;900&display=swap');
+
+:root {
+  font-family: var(--font-inter);
+  background-color: #f8fafc;
+  color: #0f172a;
+}
+
+h1, h2, h3 {
+  font-family: var(--font-lexend);
+}
+
+.glass {
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(12px);
+  border-bottom: 1px solid rgba(226, 232, 240, 0.8);
+}
